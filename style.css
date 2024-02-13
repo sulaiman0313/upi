@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(68, 66, 66);
+}
+.card{
+    border: 1px solid;
+    height: 510px;
+    width: 26%;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 28px;
+    box-shadow: 2px 2px 30px black;
+}
+.img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+.text h4{
+    color: azure;
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.text p{
+    color: grey;
+    margin-left: 20px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+.text h2{
+    color: rgba(255, 254, 254);
+    margin-left: 20px;
+    font-weight: 400;
+    /* margin-top: px; */
+    font-size: 40px;
+}
+.add{
+    /* border: 1px solid red; */
+    height: 150px;
+    margin-top: 3px;
+    display: flex;
+}
+.one{
+    /* border: 1px solid green; */
+    width: 47%;
+    background: rgba(223, 223, 223, 0.4);
+    border-radius: 20px;
+    margin-left: 5px;
+    transition: all 0.6s ease-in-out;
+}
+.one:hover{
+    background: #6A35FF;
+    transition: all 0.6s ease-in-out;
+}
+.box{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+
+    
+}
+.box h3{
+    color: white;
+    margin-left: 20px;
+}
+.box a{
+    font-size: 50px;
+    text-decoration: none;
+    color: antiquewhite;
+    margin-left: 15px;
+}
+.two{
+    /* border: 1px solid green; */
+    width: 47%;
+    background: rgba(223, 223, 223, 0.4);
+    border-radius: 20px;
+    margin-left: 8px;
+    transition: all 0.6s ease-in-out;
+}
+.two:hover{
+    background: #6A35FF;
+    transition: all 0.6s ease-in-out;
+}
+.button button{
+    /* border: 1px solid red; */
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 94%;
+    border-radius: 10px;
+    border: none;
+    background: #6A35FF;
+    color: azure;
+   
+}
+span{
+    font-size: 25px;
+    margin-left: -10px;
+}
+.button button .ri-arrow-right-line{
+    margin-left: 120px;
+    font-size: 30px;
+}
