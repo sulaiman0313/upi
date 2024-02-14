@@ -10,13 +10,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(68, 66, 66);
+    background: rgb(14, 13, 13);
 }
 .card{
     border: 1px solid;
     height: 510px;
     width: 26%;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(22, 18, 18, 0.9);
     border-radius: 28px;
     box-shadow: 2px 2px 30px black;
 }
@@ -69,7 +69,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: 8px;
 
     
 }
@@ -95,23 +95,40 @@
     background: #6A35FF;
     transition: all 0.6s ease-in-out;
 }
-.button button{
-    /* border: 1px solid red; */
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 94%;
-    border-radius: 10px;
-    border: none;
-    background: #6A35FF;
-    color: azure;
-   
+button{
+    position: relative;
+    width: 95%;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid red;
+    color: rgb(24, 255, 43);
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    
 }
 span{
-    font-size: 25px;
-    margin-left: -10px;
+    background: whitesmoke;
+    
+    height: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    transition: 0.7s;
 }
-.button button .ri-arrow-right-line{
-    margin-left: 120px;
-    font-size: 30px;
+button:hover span{
+    height: 100%;
+    
 }
+button:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.6s ease-in-out;
+}
+
